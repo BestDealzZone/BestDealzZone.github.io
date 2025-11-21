@@ -338,18 +338,6 @@ footer {
     display: flex;
   }
 
-  .menu-toggle.toggle .bar:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-  }
-
-  .menu-toggle.toggle .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .menu-toggle.toggle .bar:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
-  }
-
   .navbar {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -364,9 +352,13 @@ footer {
     font-size: 1rem;
   }
 
-  .category-container,
+  /* ⭐ FIXED PART FOR MOBILE GRID */
+  .category-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .product-container {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .category-card img {
