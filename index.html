@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Deals Zone</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Meta Info -->
+  <meta name="description" content="Discover the best deals on Electronics, Clothing, Beauty, Home Decor, Jewellery, Foot Wear, Kitchen Finds and Korean Store items.">
+  <meta name="author" content="Sania">
+</head>
+<body id="home">
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Best Deals Zone</div>
+
+    <!-- Hamburger Button -->
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link" data-category="home">Home</a></li>
+        <li><a href="#electronics" class="nav-link" data-category="electronics">Electronics</a></li>
+        <li><a href="#clothing" class="nav-link" data-category="clothing">Clothing</a></li>
+        <li><a href="#beauty" class="nav-link" data-category="beauty">Beauty</a></li>
+        <li><a href="#home-decor" class="nav-link" data-category="home-decor">Home Decor</a></li>
+        <li><a href="#jewellery" class="nav-link" data-category="jewellery">Jewellery</a></li>
+        <li><a href="#footwear" class="nav-link" data-category="footwear">Foot Wear</a></li>
+        <li><a href="#kitchen-finds" class="nav-link" data-category="kitchen-finds">Kitchen Finds</a></li>
+        <li><a href="#korean-store" class="nav-link" data-category="korean-store">Korean Store</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Best Deals Zone</h1>
+      <p>Discover top-rated products at unbeatable prices!</p>
+      <a href="#categories" class="explore-btn">Explore Now</a>
+    </div>
+  </section>
+
+  <!-- CATEGORY SECTION -->
+  <section id="categories" class="categories-section">
+    <h2 align="center">Shop by Category</h2>
+    <div class="category-container">
+
+      <div class="category-card" data-category="electronics">
+        <img src="https://images.unsplash.com/photo-1533193045359-7855d8ed65f8?auto=format&fit=crop&q=80&w=1187" alt="Electronics" />
+        <h3>⚡ Electronics</h3>
+      </div>
+
+      <div class="category-card" data-category="clothing">
+        <img src="https://images.unsplash.com/photo-1556011299-650a931cbfae?auto=format&fit=crop&q=80&w=1170" alt="Clothing" />
+        <h3>👗 Clothing</h3>
+      </div>
+
+      <div class="category-card" data-category="beauty">
+        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=880" alt="Beauty" />
+        <h3>💄 Beauty</h3>
+      </div>
+
+      <div class="category-card" data-category="home-decor">
+        <img src="https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?auto=format&fit=crop&q=80&w=1170" alt="Home Decor" />
+        <h3>🏡 Home Decor</h3>
+      </div>
+
+      <div class="category-card" data-category="jewellery">
+        <img src="https://plus.unsplash.com/premium_photo-1661645433820-24c8604e4db5?auto=format&fit=crop&q=80&w=1170" alt="Jewellery" />
+        <h3>💍 Jewellery</h3>
+      </div>
+
+      <div class="category-card" data-category="footwear">
+        <img src="https://images.unsplash.com/photo-1662749033862-e73c5afb4e7c?auto=format&fit=crop&q=80&w=651" alt="Footwear" />
+        <h3>👠 Foot Wear</h3>
+      </div>
+
+      <div class="category-card" data-category="kitchen-finds">
+        <img src="https://images.unsplash.com/photo-1658524202348-8bdff4d4a194?auto=format&fit=crop&q=80&w=1170" alt="Kitchen Finds" />
+        <h3>🍽️ Kitchen Finds</h3>
+      </div>
+
+      <div class="category-card" data-category="korean-store">
+        <img src="https://plus.unsplash.com/premium_photo-1681276170683-706111cf496e?auto=format&fit=crop&q=80&w=1170" alt="Korean Store" />
+        <h3>💜 Korean Store</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRODUCT DISPLAY SECTION -->
+  <section id="product-list" class="product-list">
+    <p class="note" style="text-align:center; color:#555;">
+      Select a category above to view top deals 👆
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Best Deals Zone | Made with ❤️ | Amazon Affiliate Site</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
